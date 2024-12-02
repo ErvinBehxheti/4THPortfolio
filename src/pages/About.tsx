@@ -6,9 +6,9 @@ const AboutHero = () => {
       className="relative h-screen bg-cover bg-center"
       style={{ backgroundImage: "url('/about-background.jpg')" }}
     >
-      <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col items-center justify-center text-center px-4">
+      <div className="absolute inset-0 bg-[hsl(0,0%,80%)] flex flex-col items-center justify-center text-center px-4">
         <motion.h1
-          className="text-white text-6xl font-bold"
+          className="text-[hsl(0,0%,15%)] text-6xl font-bold"
           initial={{ opacity: 0, y: -50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}
@@ -16,7 +16,7 @@ const AboutHero = () => {
           About Me
         </motion.h1>
         <motion.p
-          className="text-white mt-6 max-w-3xl leading-relaxed"
+          className="text-[hsl(0,0%,0%)] mt-6 max-w-3xl leading-relaxed"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.5, duration: 1 }}

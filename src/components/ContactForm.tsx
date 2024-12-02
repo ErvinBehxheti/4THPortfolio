@@ -22,16 +22,16 @@ const ContactForm = () => {
   return (
     <form
       onSubmit={handleSubmit}
-      className="max-w-lg mx-auto bg-white p-8 shadow-lg rounded-lg space-y-4"
+      className="max-w-lg mx-auto bg-[hsl(0,0%,90%)] p-8 shadow-lg rounded-lg space-y-4 mt-4"
       aria-label="Contact Form"
     >
-      <h2 className="text-2xl font-bold text-primary text-center">
+      <h2 className="text-2xl font-bold text-[hsl(0,0%,20%)]  text-center">
         Get in Touch
       </h2>
       <div>
         <label
           htmlFor="name"
-          className="block text-sm font-medium text-gray-700"
+          className="block text-sm font-medium text-[hsl(0,0%,10%)] "
         >
           Name
         </label>
@@ -48,7 +48,7 @@ const ContactForm = () => {
       <div>
         <label
           htmlFor="email"
-          className="block text-sm font-medium text-gray-700"
+          className="block text-sm font-medium text-[hsl(0,0%,10%)]"
         >
           Email
         </label>
@@ -65,7 +65,7 @@ const ContactForm = () => {
       <div>
         <label
           htmlFor="message"
-          className="block text-sm font-medium text-gray-700"
+          className="block text-sm font-medium text-[hsl(0,0%,10%)]"
         >
           Message
         </label>
@@ -81,7 +81,7 @@ const ContactForm = () => {
       </div>
       <button
         type="submit"
-        className="w-full bg-accent text-white py-2 px-4 rounded-md hover:bg-opacity-80 transition"
+        className="w-full bg-accent text-[hsl(0,0%,100%)] py-2 px-4 rounded-md hover:bg-opacity-80 transition"
       >
         Send Message
       </button>

@@ -1,0 +1,7 @@
+:root {
+    --font: bold 1.125rem/1em
+}
+
+body {
+    background-color: hsl(0,0%,80%);
+}
